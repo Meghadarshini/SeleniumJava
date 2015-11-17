@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Howley Page Test" verbose="1">
+	<test name="Page Test">
+		<groups>
+			<run> 
+				<include name="pageLoad"/>
+				<!--   <include name="funcTest"/> -->
+
+			</run>
+		</groups>	
+	</test>
+
+	 <!-- 
+	<test name = "Element Action">
+		<groups>
+			<dependencies> --> 
+				<!-- <group depends-on="funcTest" name="deleteElementAction"></group> --> 
+				<!-- <group name="elementAction" depends-on="funcTest" ></group>  -->  
+			      
+				<!--
+				  <group depends-on="funcTest" name="seo"></group>  
+			</dependencies>
+			
+		</groups>
+		<classes>
+			<class name="selenium.HowleyElementAction"/>
+		</classes>
+		
+	</test>
+	
+	
+	
+	<test name = "Settings">
+		<groups>
+			<dependencies>
+				<group depends-on="funcTest" name="settings"></group>	
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="selenium.HowleySettings"></class>
+		</classes>
+	</test>
+	-->
+	
+	<test name = "Advertisement">
+		<groups>
+			<dependencies>
+				<!--   <group depends-on="funcTest" name="advertisement"></group> -->
+				<group depends-on="pageLoad" name="advertisement"></group>
+			</dependencies>			
+		</groups>
+		<classes>
+			<class name="selenium.HowleySite"></class> 
+		</classes>
+	</test>
+	
+	
+	
+</suite>

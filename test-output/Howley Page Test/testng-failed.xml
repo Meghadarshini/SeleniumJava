@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Howley Page Test]">
+  <test name="Advertisement(failed)">
+    <classes>
+      <class name="selenium.HowleySite">
+        <methods>
+          <include name="loadPage"/>
+          <include name="afterMethod"/>
+          <include name="icecreamVideo"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- selenium.HowleySite -->
+    </classes>
+  </test> <!-- Advertisement(failed) -->
+</suite> <!-- Failed suite [Howley Page Test] -->

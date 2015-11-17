@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Howley Page Test" duration-ms="33219" started-at="2015-08-27T05:29:17Z" finished-at="2015-08-27T05:29:50Z">
+    <groups>
+      <group name="pageLoad">
+        <method signature="HowleyProfile.loadPage()[pri:0, instance:selenium.HowleySite@506e6d5e]" name="loadPage" class="selenium.HowleyProfile"/>
+      </group> <!-- pageLoad -->
+      <group name="advertisement">
+        <method signature="HowleySite.icecreamVideo()[pri:0, instance:selenium.HowleySite@506e6d5e]" name="icecreamVideo" class="selenium.HowleySite"/>
+      </group> <!-- advertisement -->
+    </groups>
+    <test name="Page Test" duration-ms="13" started-at="2015-08-27T05:29:17Z" finished-at="2015-08-27T05:29:17Z">
+    </test> <!-- Page Test -->
+    <test name="Advertisement" duration-ms="33149" started-at="2015-08-27T05:29:17Z" finished-at="2015-08-27T05:29:50Z">
+      <class name="selenium.HowleySite">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:selenium.HowleySite@506e6d5e]" name="beforeMethod" is-config="true" duration-ms="23498" started-at="2015-08-26T22:29:17Z" finished-at="2015-08-26T22:29:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="loadPage()[pri:0, instance:selenium.HowleySite@506e6d5e]" name="loadPage" duration-ms="7932" started-at="2015-08-26T22:29:40Z" finished-at="2015-08-26T22:29:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadPage -->
+        <test-method status="PASS" signature="icecreamVideo()[pri:0, instance:selenium.HowleySite@506e6d5e]" name="icecreamVideo" duration-ms="1662" depends-on-groups="pageLoad" started-at="2015-08-26T22:29:48Z" finished-at="2015-08-26T22:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- icecreamVideo -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:selenium.HowleySite@506e6d5e]" name="afterMethod" is-config="true" duration-ms="0" started-at="2015-08-26T22:29:50Z" finished-at="2015-08-26T22:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- selenium.HowleySite -->
+    </test> <!-- Advertisement -->
+  </suite> <!-- Howley Page Test -->
+</testng-results>
